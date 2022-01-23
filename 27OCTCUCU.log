@@ -1,0 +1,27 @@
+2021-12-22 09:58:46,054 [INFO ] com.cucu.step_definition.Common_Step_Definition [main] Execution started
+2021-12-22 09:58:46,088 [INFO ] com.cucu.step_definition.Common_Step_Definition [main] Instantiating the CommonUtils
+2021-12-22 09:58:46,090 [INFO ] com.cucu.step_definition.Common_Step_Definition [main] Checking driver is null or not?
+2021-12-22 09:58:46,093 [INFO ] com.cucu.step_definition.Common_Step_Definition [main] browser is null, so Instantiating the driver
+2021-12-22 09:58:46,094 [INFO ] com.cucu.launch_browser.DriverManager [main] launching chrome
+2021-12-22 09:59:29,246 [INFO ] com.cucu.step_definition.Verify_CEO_Name [main] the user is logged in successfully & in homepage
+2021-12-22 09:59:44,628 [INFO ] com.cucu.step_definition.Verify_CEO_Name [main] the user clicks on directory option from the menubar
+2021-12-22 09:59:45,360 [INFO ] com.cucu.step_definition.Verify_CEO_Name [main] user selects job title as CEO from the dropdown
+2021-12-22 09:59:46,513 [INFO ] com.cucu.step_definition.Verify_CEO_Name [main] clicks on search button
+2021-12-22 09:59:46,568 [INFO ] com.cucu.step_definition.Verify_CEO_Name [main] the user should see the CEO name as John Smith
+2021-12-22 09:59:46,579 [INFO ] com.cucu.step_definition.Common_Step_Definition [main] Execution started
+2021-12-22 09:59:46,580 [INFO ] com.cucu.step_definition.Common_Step_Definition [main] Instantiating the CommonUtils
+2021-12-22 09:59:46,581 [INFO ] com.cucu.step_definition.Common_Step_Definition [main] Checking driver is null or not?
+2021-12-22 09:59:46,581 [INFO ] com.cucu.step_definition.Verify_PendingTimesheet [main] the user clicks on the homepage
+2021-12-22 09:59:48,480 [INFO ] com.cucu.step_definition.Verify_PendingTimesheet [main] the user clciks on time option from menu
+2021-12-22 09:59:48,576 [INFO ] com.cucu.step_definition.Verify_PendingTimesheet [main] the user enter the name as Garry White
+2021-12-22 09:59:48,666 [INFO ] com.cucu.step_definition.Verify_PendingTimesheet [main] Clicks on view button
+2021-12-22 09:59:48,780 [INFO ] com.cucu.step_definition.Verify_PendingTimesheet [main] failed_______________________________________________
+2021-12-22 09:59:48,781 [ERROR] com.cucu.step_definition.Verify_PendingTimesheet [main] org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#noRecordsColumn"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-7', revision: 'de8579b6d5'
+System info: host: 'DESKTOP-IHVPJ3E', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0-262'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5d347c3ded3a0bf83893db0ef50997fe
+*** Element info: {Using=id, value=noRecordsColumn}
